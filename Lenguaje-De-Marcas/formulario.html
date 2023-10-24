@@ -19,13 +19,13 @@
                     <br>
 
             <label for="Apellidos">Apellidos</label><!--*Apellidos-->
-                <input type="text" autofocus max="50">
+                <input type="text" autofocus max="50"> <!--Al abrir inicia aqui el cursor-->
                     <br>
                     <br>
 
             <label for="DNI">DNI</label> <!--*DNI-->
-                <input type="text" required max="10" pattern="[0-9]{8}-[A-Z]{1}" placeholder="12345678X">
-                    <br>
+                <input type="text" required maxlength="10" pattern="[0-9]{8}[A-Z]{1}" placeholder="12345678X">
+                    <br><!--REQUIRED hace que sea imprescindible-->
                     <br>
 
             <label for="Correo electrónico">Correo electrónico</label><!--*Correo electrónico-->
