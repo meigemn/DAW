@@ -1,19 +1,21 @@
 # Constructor
 ## Planetas
----
+-
 En este programa, se practica y explica el uso de *constructures*,*atributos* y *metodos*
 
 ### Apartados
 ---
 1. Código
-2. Explicación *paquete* _planeta_
-3. Explicación *clase* _Planeta_
+2. Explicación **paquete** _planeta_
+3. Explicación **clase** _Planeta_
 4. Constructor
 5. Metodos
   * Imprimir
   * Calcular densidad
   * Determine exterior o no
 6. Método Main
+
+---
 
 ### 1. Codigo
 ``` java
@@ -85,11 +87,13 @@ public class Planeta {
 }
 
 ```
-### 2. Explicación *paquete* _planeta_
-Creamos este paquete donde ubicaremos las *clases* `Planeta.java` y `TiposPlanetas`
 ---
+### 2. Explicación *paquete* _planeta_
+Creamos este paquete donde ubicaremos las **clases** `Planeta.java` y `TiposPlanetas`
+---
+
 ### 3. Explicación *clase* _Planeta_
-Dentro del _paquete planeta_ mencionado anteriormente, creamos una clase pública llamada *Planeta*.
+Dentro del _paquete planeta_ mencionado anteriormente, creamos una clase pública llamada **Planeta**.
 > Si imaginamos un planeta, podemos pensar en diferentes apartados que lo convierten en un planeta. En nuestro caso, los apartados que componen a un planeta serán:
 >  * Nombre
 >  * Cantidad de satélites
@@ -140,10 +144,10 @@ public Planeta(String nombre, int cantidadSatelites, double masaPlaneta, double 
 Primero entendemos que estamos usando la clase pública *Planeta*. Dentro de esta clase, utilizaremos los atributos `(String nombre, int cantidadSatelites, double masaPlaneta, double volumenPlaneta, int diametro,
 			int distanciaSol, TiposPlanetas tiposPlanetas, boolean observable)`
 Posteriormente, a esos atributos le daremos un valor, que serán las variables declaradas al principio de código.
-> Podriamos imaginarnos a un constructor como una plantilla: `this.nombre` `=``nombre` nos quiere decir que la variable del principio *nombre* tendrá el valor a partir de lo que le den en el atributo _nombre_ de este constructor.
+> Podríamos imaginarnos a un constructor como una plantilla: `this.nombre` `=``nombre` nos quiere decir que la variable del principio *nombre* tendrá el valor a partir de lo que le den en el atributo _nombre_ de este constructor.
 > Sabemos que queremos crear varios planetas, esos planetas compartiran todas las características que los hacen planetas, pero todos tendrán diferentes valores. Para no repetir el proceso tantas veces, creamos esta plantilla que posteriormente podremos reutilizar
 
- ---
+---
 ### 5. Metodos :Imprimir, Calcular densidad, exterior o no
 
 ### Imprimir
@@ -173,7 +177,7 @@ public double densidad(double masaPlaneta, double volumenPlaneta) {
 	}
 ```
 Para calcular la densidad, creamos un método que nos divida la masa entre el volumen.
-> Con los *atributos* `double masaPlaneta`, y `double volumenPlaneta`, devuelve el resultado que da divir el valor de la *variable* `masaPlaneta` y `volumenPlaneta`.
+> Con los **atributos** `double masaPlaneta`, y `double volumenPlaneta`, devuelve el resultado que da divir el valor de la **variable** `masaPlaneta` y `volumenPlaneta`.
 > Aunque en este caso atributo y variable coincidan en nombre no tiene por qué ser así.
 
 ### Exterior o no
@@ -187,7 +191,7 @@ public boolean esExterior(double distanciaSol){
 		}
 	}
 ```
-> Lo que se crea aquí,`public boolean esExterior(double distanciaSol)` que es un valor de tipo  _boolean_, tomará la variable *distanciaSol* y mediante un _if_ determinará si se cumplen o no las condiciones.
+> Lo que se crea aquí,`public boolean esExterior(double distanciaSol)` que es un valor de tipo  _boolean_, tomará la variable **distanciaSol** y mediante un _if_ determinará si se cumplen o no las condiciones.
 
 ### 6. Método Main
 ```java
