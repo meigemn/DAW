@@ -20,12 +20,12 @@ En este programa, se practica y explica el uso de *constructures*,*atributos* y 
 package planeta;
 
 public class Planeta {
-	private String nombre;//valor inicializado
-	private int cantidadSatelites;//valor inicializado
-	private double masaPlaneta;//valor inicializado
-	private double volumenPlaneta;//valor inicializado
-	private int diametro;//valor inicializado
-	private int distanciaSol;//valor inicializado
+	private String nombre;
+	private int cantidadSatelites;
+	private double masaPlaneta;/
+	private double volumenPlaneta;
+	private int diametro;
+	private int distanciaSol;
 	private TiposPlanetas tiposPlanetas;
 	private boolean observable=false;
 	
