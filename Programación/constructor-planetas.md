@@ -18,7 +18,7 @@ En este programa, se practica y explica el uso de *constructures*,*atributos* y 
 ---
 
 ### 1. Codigo
-``` java
+```java
 package planeta;
 
 public class Planeta {
